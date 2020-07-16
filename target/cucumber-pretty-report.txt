@@ -1,0 +1,6 @@
+Feature: User want to find out homework for year 5
+
+  Scenario:                                               [90m# hilltop.feature:3[0m
+    [32mGiven [0m[32mUser is on school website[0m                       [90m# StepDef.user_is_on_school_website()[0m
+    [32mWhen [0m[32mUser select year [0m[32m[1m5[0m[32m in year learning group[0m        [90m# StepDef.user_select_year_in_year_learning_group(int)[0m
+    [32mThen [0m[32mUser should able to find out homework for year [0m[32m[1m5[0m [90m# StepDef.user_should_able_to_find_out_homework_for_year(int)[0m
